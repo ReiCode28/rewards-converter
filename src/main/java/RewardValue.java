@@ -12,6 +12,10 @@ public class RewardValue {
         setMilesValue(milesValue);
     }
 
+    public static double getMilesToCashRate(){
+        return MILES_TO_CASH_RATE;
+    }
+
     // Returns the cash value
     public double getCashValue (){
         return cashValue;
